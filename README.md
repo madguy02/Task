@@ -4,6 +4,6 @@ $ cd google-maps
 $ npm install
 $ start mongo db or docker-compose up
 $ npm start
-$ localhost:3000
+url= localhost:3000
 
 ```
