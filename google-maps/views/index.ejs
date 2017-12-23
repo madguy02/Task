@@ -1,0 +1,26 @@
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+<table>
+<div>
+  <p><strong> *Check the console to find out more about your locations </strong> </p>
+<tr>
+    <% for(var i=0; i<name.length; i++) {%>
+        <td><%= name[i].name %></td>
+
+    <% } %>
+  </tr>
+</div>
+</table>
+
+<style>
+table, th, td {
+   border: 1px solid black;
+}
+a{
+  color: white;
+}
+</style>
+<br></br>
+<center><button type="button" class="btn btn-primary btn-lg"><a href = "/logout">Logout</a></button></center>
+<br></br>
+<center><button type="button" class="btn btn-primary btn-lg"><a href = "/">Home</a></button></center>
